@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">    
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css"> 
+    <link rel="stylesheet" href="/style/responsive.css">  
+
+    <title>Netflix Clone</title>
+</head>
+<body>
+    <div class="father">
+    <header>
+        <div class="container">
+            <h2 class="logo">CARTOONFLIX</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="#">Desenhos</a>
+                <a href="#">Animes</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div> 
+    </header>
+    
+    <main>
+        <div class="banner-movie"> 
+            <div class="container">
+                <h3 class="title">The Midnight Gospel</h3>
+                <p class="description">Um apresentador de transmissão-espacial visita mundos malucos em seu simulador de universo e explora questões existenciais sobre a vida, a morte e muito mais.</p>
+                <div class="buttons">
+                    <button role="botao" class="btn" onclick="link('https://www.youtube.com/watch?v=0kQWAqjFJS0')"> 
+                        <i class="fas fa-play"></i> 
+                        Assistir Agora
+                    </button>
+                    <button role="botao" class="btn" onclick="link('https://www.themoviedb.org/tv/96713-the-midnight-gospel?language=pt-BR')"> 
+                        <i class="fas fa-info-circle"></i>
+                        Mais informações
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="carousel-movies">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=ApRC4aygnag">
+                <img class="box-movies" src="img/min01.jpg" alt="foto1" >
+            </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=nfK6UgLra7g">
+                <img class="box-movies" src="img/min02.jpg" alt="foto2">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=hWBxoH4-4yw">
+                <img class="box-movies" src="img/min03.jpg" alt="foto3">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=sZIqMz_AC24">
+                <img class="box-movies" src="img/min04.jpg" alt="foto4">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=uF8w-6x61fc">
+                <img class="box-movies" src="img/min05.jpg" alt="foto5">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=SS6ABPkfmBE">
+                <img class="box-movies" src="img/min06.jpg" alt="foto6">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=HKH7_n425Ss">
+                <img class="box-movies" src="img/min07.jpg" alt="foto7">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=yADAYe9efE0">
+                <img class="box-movies" src="img/min08.jpg" alt="foto8">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=FKy5DyTEnj4">
+                <img class="box-movies" src="img/min09.jpg" alt="foto9">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=CZ1CATNbXg0">
+                <img class="box-movies" src="img/min10.jpg" alt="foto10">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
+    <script>
+        function link(n){
+            window.open(n, target="_blank")
+        }
+
+        
+
+    </script> 
+</body>
+</html>
